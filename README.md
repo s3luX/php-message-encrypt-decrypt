@@ -1,15 +1,16 @@
 # php-message-encrypt-decrypt
 A small piece of PHP code that lets you encrypt and decrypt messages using various encyption methods.
 
-This piece of code does not require any additional software to be installed, only incorporate it into your project and you are set.
+This piece of code does not require any additional software or libraries to be installed, only incorporate it into your project and you are set to go.
 
+NOTE: This is a simple PHP function that will encrypt and decrypt the message, before using it in production please research encryption a bit more in order to be safer.
 
 Instructions:
 
 In order to encrypt a message just use "encrypt_decrypt('encrypt', {your message}, {password})" and to decrypt you just use "encrypt_decrypt('decrypt', {encrypted message}, {password})".
 
 
-Supported enryption methods:
+Supported encryption methods:
 AES-128-CBC
 AES-128-CFB
 AES-128-CFB1
