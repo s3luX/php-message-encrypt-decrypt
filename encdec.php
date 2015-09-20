@@ -12,13 +12,9 @@
  * 
  */
 
-
-
-
 $password = "VeryStrongPassword123!";
 $message = "Text that will be encrypted";
 $encryption_method = "AES-256-CBC";
-
 
 function encrypt_decrypt($action, $string, $key)
 {
@@ -53,11 +49,9 @@ function encrypt_decrypt($action, $string, $key)
 
 echo "<b>Message in plain text:</b> $message"."<br /><br />";
 
-
 // The encrypted text looks like this
 $encrypted_txt = encrypt_decrypt('encrypt', $message, $password);
 echo "<b>Encrypted text:</b> $encrypted_txt"."<br /><br />";
-
 
 // Decrypte the message
 $decrypted_txt = encrypt_decrypt('decrypt', $encrypted_txt, $password);
