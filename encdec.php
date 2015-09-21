@@ -21,7 +21,6 @@ function encrypt_decrypt($action, $string, $key)
     $output = false;
 
     global $encryption_method;  // Pull the hashing method that will be used
-    global $iv;
 
     // Hash the password
     $key = hash('sha256', $key);
