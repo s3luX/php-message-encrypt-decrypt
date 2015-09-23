@@ -8,7 +8,7 @@
  * 
  * Have fun with care!
  * 
- * by: miskosu
+ * by: s3luX
  * 
  */
 
